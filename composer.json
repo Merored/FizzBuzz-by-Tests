@@ -1,0 +1,17 @@
+{
+    "name": "root/test",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Vlad Sventik",
+            "email": "sventik.vlad@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"FizzBuzz\\": "src/"}
+    }
+
+}
