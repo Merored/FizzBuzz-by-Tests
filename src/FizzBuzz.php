@@ -11,10 +11,19 @@ class FizzBuzz {
 
 		$mass = [];
 		for ($i = 1; $i <= $number; $i++){
+			if ($i % 3 == 0 && $i % 5 == 0) {
+				$mass[] = "fizzbuzz";
+				continue;
+			}
 			if ($i % 3 == 0) {
 				$mass[] = "fizz";
 				continue;
 			}
+			if ($i % 5 == 0) {
+				$mass[] = "buzz";
+				continue;
+			}
+
 			$mass[] = $i;
 		} 
 
